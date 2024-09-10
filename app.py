@@ -54,7 +54,7 @@ def predict_autism(data:asd_input):
 
 # 5. Run the API with uvicorn
 #    Will run on http://127.0.0.1:8000
-if __name__ == '__main__':
-    uvicorn.run(app, host='0.0.0.0', port=10000)
+#if __name__ == '__main__':
+    #uvicorn.run(app, host='0.0.0.0', port=10000)
     
 #uvicorn app:app --reload
